@@ -1,0 +1,14 @@
+{
+  "root": true,
+  "extends": ["eslint:recommended", "prettier"],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "node": true,
+    "es2021": true
+  },
+  "rules": {
+    "no-var": "error",
+    "prefer-const": "error"
+  }
+}
